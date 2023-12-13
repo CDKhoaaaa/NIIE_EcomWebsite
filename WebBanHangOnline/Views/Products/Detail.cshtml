@@ -6,6 +6,13 @@
 }
 <link rel="stylesheet" type="text/css" href="~/Content/assets/styles/single_styles.css">
 <link rel="stylesheet" type="text/css" href="~/Content/assets/styles/single_responsive.css">
+@section SEO{
+    <meta property="og:title" itemprop="name" content="@Model.Title" />
+    <meta property="og:url" itemprop="url" content="https://www.ten_mien_cua_cac_ban/" />
+    <meta property="og:description" content="@ViewBag.SeoDescription" />
+    <meta content="https://cdn.24h.com.vn/upload/2-2018/images/2018-06-14/logo-chan-trang-24h.png" property="og:image" itemprop="thumbnailUrl" />
+    <!--script_breadcrum-->
+}
 @if (Model != null)
 {
 

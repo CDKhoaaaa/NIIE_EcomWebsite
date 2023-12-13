@@ -425,7 +425,7 @@ namespace WebBanHangOnline.Controllers
                     }
 
                     //on successful payment, show success page to user.  
-                    return View("SuccessView");
+                    return View("CheckOutSuccess");
 
                 }
             }
