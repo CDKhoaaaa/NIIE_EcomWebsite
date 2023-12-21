@@ -48,7 +48,7 @@
   <ItemGroup>
     <Reference Include="CKFinder, Version=2.4.0.2631, Culture=neutral, PublicKeyToken=579e7adc719a1423, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Users\HP\Downloads\ckfinder\ckfinder\bin\Release\CKFinder.dll</HintPath>
+      <HintPath>..\ckfinder\bin\Release\CKFinder.dll</HintPath>
     </Reference>
     <Reference Include="Dapper, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Dapper.2.1.24\lib\net461\Dapper.dll</HintPath>
@@ -3573,6 +3573,7 @@
     <Content Include="Views\ShoppingCart\VnpayReturn.cshtml" />
     <Content Include="Views\ShoppingCart\SuccessView.cshtml" />
     <Content Include="Views\ShoppingCart\FailureView.cshtml" />
+    <Content Include="Views\Account\Profile.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
